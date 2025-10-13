@@ -1,0 +1,5 @@
+/* Hide the ChevronRight icon from ShadCN when the menu is open */
+[data-state='open'] svg:last-of-type {
+  display: none;
+  visibility: hidden;
+}
