@@ -1,10 +1,10 @@
-import { AuthStore } from "./auth.store";
+// import { AuthStore } from "./auth.store";
 
 export class RootStore {
-  auth: AuthStore;
+  // auth: AuthStore;
 
   constructor() {
-    this.auth = new AuthStore();
+    // this.auth = new AuthStore();
   }
 }
 
